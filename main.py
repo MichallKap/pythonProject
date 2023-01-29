@@ -15,3 +15,12 @@ if __name__ == '__main__':
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
 
+class Student:    def __init__(self):
+self.height = 160nick = Student()
+print(nick.height)
+first_student = Student()
+
+nick = Student()
+kate = Student(neight=170)
+print(nick.neight)
+print(kate.neight)
